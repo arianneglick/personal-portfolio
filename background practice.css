@@ -1,0 +1,40 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+#container {
+    background: #FFFFFF url("5.jpg") no-repeat;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 0 auto;
+    clear: both;
+    position: relative;
+    min-height: 800px;
+}
+.centerbox {
+    width: 90%;
+    margin: 0 auto;
+    color: #FFFFFF;
+}
+.header {
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #FFFFFF;
+    overflow: hidden;
+}
+.logo {
+    float: left;
+}
+.nav {
+    float: right;
+}
+.nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
