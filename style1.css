@@ -10,6 +10,10 @@ body {
 #header {
     text-align: center;
 }
+@keyframes colorChange {
+    from {background: #333A56}
+    to {background: #52658F}
+}
 #hero {
     color: #F7F5E6;
     text-shadow: 2px 2px #363D5B;
@@ -17,6 +21,7 @@ body {
     height: 125px;
     background-color: #333A56;
     font-family: 'Cinzel', serif;
+    animation: colorChange 5s infinite alternate;
 }
 #navbar {
     list-style-type: none;
@@ -59,4 +64,18 @@ rgba(0,0,0,0.2);
 }
 .dropdown:hover #dropdown-content {
     display: block;
+}
+#AboutMe {
+    width: 80%;
+    margin: 25px;
+    padding: 15px;
+}
+#bio {
+    float: left;
+    width: 66%
+}
+#photo img{
+    width: 33%;
+    height: auto;
+    float: right;
 }
