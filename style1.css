@@ -41,6 +41,7 @@ li a, .dropbtn {
 }
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #333A56;
+    border-radius: 1px;
 }
 li.dropdown {
     display: inline-block;
@@ -67,15 +68,34 @@ rgba(0,0,0,0.2);
 }
 #AboutMe {
     width: 80%;
-    margin: 25px;
+    margin-top: 25px;
+    margin-left: 35px;
     padding: 15px;
 }
 #bio {
     float: left;
-    width: 66%
+    width: 64%
 }
 #photo img{
     width: 33%;
     height: auto;
     float: right;
+}
+.typebox{
+    height: 60px;
+    font-size: 18px;
+    display: block; /*better to use this than <br>*/
+    margin-top: 5px;
+    padding-left: 5px;
+}
+#form {
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+#resume {
+    text-align: center;
+}
+#Availability {
+    text-align: center;
 }
